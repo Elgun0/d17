@@ -1,0 +1,120 @@
+#header {
+  background: transparent;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  padding: 20px 0;
+}
+
+#header .menu a {
+  color: #d4cccc;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+#header .menu a:hover {
+  color: #fff;
+}
+
+#header .menu button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 35px;
+  background: transparent;
+  border: 2px solid #d4cccc;
+  color: #d4cccc;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#header .menu button:hover {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+#discover {
+  background: url(../photo/kai-pilger-mgFzfrrmGKI-unsplash.jpg);
+}
+
+#discover .into {
+  padding: 180px 0;
+}
+
+#discover .into h1 {
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 60px;
+}
+
+#discover .into .button {
+  position: relative;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#discover .into .button:hover i {
+  visibility: visible;
+  top: 35%;
+  left: 20px;
+}
+
+#discover .into .button button {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 25px;
+  background: #ff6716;
+  font-size: 18px;
+  color: #fff;
+}
+
+#discover .into .button i {
+  position: absolute;
+  top: 35%;
+  left: 10px;
+  color: #fff;
+  visibility: hidden;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#services {
+  margin-top: 120px;
+}
+
+#services .text {
+  padding: 40px 25px;
+}
+
+#services .text .button {
+  position: relative;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#services .text .button:hover i {
+  visibility: visible;
+  top: 35%;
+  left: 20px;
+}
+
+#services .text .button button {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 25px;
+  background: transparent;
+  font-size: 18px;
+  color: #ff6716;
+  font-weight: 700;
+}
+
+#services .text .button i {
+  position: absolute;
+  top: 35%;
+  left: 10px;
+  color: #ff6716;
+  visibility: hidden;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/*# sourceMappingURL=stytle.css.map */

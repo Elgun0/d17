@@ -1,0 +1,108 @@
+// Header start
+#header{
+    background: transparent;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    padding: 20px 0;
+    .menu{
+        a{
+            color: rgb(212, 204, 204);
+            text-decoration: none;
+            padding: 0 10px;
+            font-size: 18px;
+            &:hover{
+                color: #fff;
+            }
+        }
+        button{
+            padding: 10px 20px;
+            border: none;
+            border-radius: 35px;
+            background: transparent;
+            border: 2px solid rgb(212, 204, 204);
+            color: rgb(212, 204, 204);
+            transition: .2s;
+            &:hover{
+                color: #fff;
+                border: 2px solid #fff;
+            }
+        }
+    }
+}
+// Header end
+// Discover start
+#discover{
+    background: url(../photo/kai-pilger-mgFzfrrmGKI-unsplash.jpg);
+    .into{
+        padding: 180px 0;
+        h1{
+            color: #fff;
+            font-size: 60px;
+            margin-bottom: 60px;
+        }
+    .button{
+        position: relative;
+        transition: .3s;
+        &:hover{
+            i{
+                visibility: visible;
+                top: 35%;
+                left: 20px;
+            }
+        }
+        button{
+            padding: 15px 40px;
+            border: none;
+            border-radius: 25px;
+            background: #ff6716;
+            font-size: 18px;
+            color: #fff;
+        }
+        i{
+            position: absolute;
+            top: 35%;
+            left: 10px;
+            color: #fff;
+            visibility: hidden;
+            transition: .3s;
+        }
+    }
+    }
+}
+// Discover end
+// Services start
+#services{
+    margin-top: 120px;
+    .text{
+        padding: 40px 25px;
+        .button{
+            position: relative;
+            transition: .3s;
+            &:hover{
+                i{
+                    visibility: visible;
+                    top: 35%;
+                    left: 20px;
+                }
+            }
+            button{
+                padding: 15px 40px;
+                border: none;
+                border-radius: 25px;
+                background: transparent;
+                font-size: 18px;
+                color: #ff6716;
+                font-weight: 700;
+            }
+            i{
+                position: absolute;
+                top: 35%;
+                left: 10px;
+                color: #ff6716;
+                visibility: hidden;
+                transition: .3s;
+            }
+        }
+    }
+}
